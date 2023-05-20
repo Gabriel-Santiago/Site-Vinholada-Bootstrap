@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vinholada</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Feito essa merda -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">
+                <img src="/assets/logo.png" alt="Bootstrap" width="90" height="72">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Vinhos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Recomendações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <button class="btn" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Mais um concluído nessa bosta -->
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-inner my-5 px-5">
+                    <div class="carousel-item active">
+                        <img src="/assets/slider1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="info1">
+        <div class="container">
+            <div class="row">
+                <div class="order-xs-1 order-sm-1 order-md-1 order-lg-1 col-xs-12 col-sm-12 col-md-12 col-lg-8">
+                    <div class="card">
+                        <div class="card-header d-flex flex-column justify-content-center align-items-center">
+                            <h2>Destaque</h2>
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                            <h3 class="card-title">MIOLO SEBRUMO CABERNET SAUVIGNON VINHO TINTO SECO</h3>
+                            <div>
+                                <img src="assets/cabernet sauvignon.jpg" alt="">
+                                <p class="card-text">O Miolo Sebrumo Cabernet Sauvignon Vinho Tinto Seco é produzido
+                                    exclusivamente com uvas Cabernet Sauvignon das melhores parcelas dos vinhedos da
+                                    região da Campanha Meridional, no Rio Grande do Sul. Carrega a herança cultural do
+                                    Pampa Gaúcho, e representa a força da tropa da Batalha do Seival, tendo o General
+                                    João da Silva Tavares como um dos seus principais personagens, o mesmo que liderou a
+                                    tropa montado em seu cavalo de pelagem rara da bela cor Sebrumo. A escolha do nome é
+                                    uma homenagem desta batalha que marcou a história dos gaúchos, guerra esta que durou
+                                    10 anos e ganha agora este vinho emblemático e único, símbolo de sua origem.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-xs-3 order-sm-3 order-md-2 order-lg-2 col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Social</h2>
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                            <iframe
+                                src="https://player.vimeo.com/video/253777183?h=a95f4644a1&title=0&byline=0&portrait=0"
+                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                                allowfullscreen></iframe>
+
+                            <div class="row mt-5 mb-3">
+                                <a href="" target="_blank">
+                                    <img src="assets/instagram-icon.svg" alt=""> <span>/vinholadaoficial</span>
+                                </a>
+                            </div>
+                            <div class="row my-3">
+                                <a href="" target="_blank">
+                                    <img src="assets/facebook-icon.svg" alt=""> <span>/vinholadaoficial</span>
+                                </a>
+                            </div>
+                            <div class="row my-3">
+                                <a href="" target="_blank">
+                                    <img src="assets/twitter-icon.svg" alt=""> <span>/vinholadaoficial</span>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="order-xs-2 order-sm-2 order-md-3 order-lg-3 col-xs-12 col-sm-12 col-md-12 col-lg-8">
+                    <div class="card-header d-flex flex-column justify-content-center align-items-center">
+                        <h2>Conheça também</h2>
+                    </div>
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner slideUva">
+                            <div class="carousel-item active">
+                                <img src="assets/uvas/01-carménère.png" class="d-block" alt="...">
+                                <h3>Uva Carménère</h3>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/uvas/02-syrah.jpeg" class="d-block" alt="...">
+                                <h3>Uva Syrah</h3>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/uvas/03-tempranillo.webp" class="d-block" alt="...">
+                                <h3>Uva Tempranillo</h3>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/uvas/04-malbec.png" class="d-block" alt="...">
+                                <h3>Uva Malbec</h3>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/uvas/05-merlot.jpg" class="d-block" alt="...">
+                                <h3>Uva Merlot</h3>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/uvas/06-chardonnay.jpg" class="d-block" alt="...">
+                                <h3>Uva Chardonnay</h3>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/uvas/07-Sauvignon_Blanc.png" class="d-block" alt="...">
+                                <h3>Uva Suavignon Blanc</h3>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/uvas/08-pinot_noir.webp" class="d-block" alt="...">
+                                <h3>Uva Pinot Noir</h3>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/uvas/09-tannat.jpg" class="d-block" alt="...">
+                                <h3>Uva Tanat</h3>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/uvas/10-viognier.png" class="d-block" alt="...">
+                                <h3>Uva Viognier</h3>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/uvas/11-touriga_nacional.jpg" class="d-block" alt="...">
+                                <h3>Uva Touriga Nacional</h3>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/uvas/12-riesling.jpeg" class="d-block" alt="...">
+                                <h3>Uva Riesling</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-xs-4 order-sm-3 order-md-4 order-lg-4 col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Melhores do ano</h2>
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                            <ul>
+                                <li><a href="">Melhores de 2022</a></li>
+                                <li><a href="">Melhores de 2021</a></li>
+                                <li><a href="">Melhores de 2020</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+        <!-- Mais um feito nessa disgraça -->
+        <section class="posts d-flex justify-content-between">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title">Conheça os vinhos por classes</h2>
+                                <p class="card-text">A classe do vinho ajuda a definir a graduação alcoólica e o estilo
+                                    da
+                                    bebida que você vai consumir. Você pode verificar essa informação no rótulo da
+                                    bebida
+                                    ou, em
+                                    alguns casos, observando aspectos específicos da sua composição ao ser servido em um
+                                    copo...
+                                </p>
+                                <a href="#" class="continua">Continuar lendo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title">Conheça os vinhos pela cor</h2>
+                                <p class="card-text">A cor de um vinho pode ter relação com o tipo de uva utilizada para
+                                    sua
+                                    preparação, assim como com o seu processo de fermentação. Três colorações de vinho
+                                    podem ser
+                                    encontradas para consumo..</p>
+                                <a href="#" class="continua">Continuar lendo</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title">Conheça os vinhos pelo teor de açúcar</h2>
+                                <p class="card-text">O teor de açúcar de um vinho permite classificar a bebida de acordo
+                                    com uma
+                                    das múltiplas facetas do seu sabor, já que a acidez, o amargor e o aroma do vinho
+                                    também
+                                    podem influenciar na sua percepção ao consumir essa bebida...</p>
+                                <a href="#" class="continua">Continuar lendo</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="title">Contato</h2>
+                <form action="">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Nome" name="nome">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input type="email" class="form-control" placeholder="Email" name="email">
+                        </div>
+                        <div class="col">
+                            <input type="tel" class="form-control" placeholder="Telefone" name="telefone">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <textarea class="form-control" rows="5" id="comment" placeholder="Assunto"
+                                name="assunto"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-check mb-3">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> Desejo assinar a newsletter
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btnEnviar">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+
+
+    </main>
+
+</body>
+
+</html>

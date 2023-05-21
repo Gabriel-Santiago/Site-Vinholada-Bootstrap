@@ -84,6 +84,7 @@ h2.title{
     line-height: 4.4rem;
     text-align: center;
     color: var(--font-light-color);
+    border-radius: 5px 5px 0 0;
 }
 
 input.form-control{
@@ -109,4 +110,23 @@ button.btn.btnEnviar{
     text-align: center;
     color: var(--font-light-color);
     cursor: pointer;
+}
+
+.avl-header {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.avl-header span {
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+.data {
+    text-align: right;
+}
+
+.classificacao {
+    margin: auto;
 }
